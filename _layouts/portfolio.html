@@ -22,9 +22,31 @@ layout: page
       </div>
     </div>
     <div class="bg"></div>
+    <!-- education section-->
   </section>
-  <!-- career section -->
-  <section id="career" class="row">
+  <section id="education" class="row">
+    <article class="edu col-12 col-md-6">
+      <p class="title">EDUCATION</p>
+      <ul class="edu-list">
+        {% for edu in  profile.education %}
+        <li class="meta">
+          <p class="date">{{ edu.start }} ~ {{ edu.end }}</p>
+          <p class="description">{{ edu.major }}</p>
+        </li>
+        {% endfor %}
+      </ul>
+    </article>
+    <article class="cert col-12 col-md-6">
+      <p class="title">CERTIFICATIONS</p>
+      <ul class="cert-list">
+        {% for cert in  profile.certifications %}
+        <li class="meta">
+          <p class="date">{{ cert.start }} ~ {{ cert.end }}</p>
+          <p class="description">{{ cert.major }}</p>
+        </li>
+        {% endfor %}
+      </ul>
+    </article>
     <article class="exper col-12 col-md-6">
       <p class="title">EXPERIENCE</p>
       <ul class="exper-list">
@@ -43,7 +65,7 @@ layout: page
         <li class="skill">
           <p class="name">{{ _.skill }}</p>
           <div class="progress">
-            <div class="progress-bar" style="width: {{ _.value }}%">
+            <div class="progress-bar" style="width: {{_.value}}%">
               <div class="progress-value">{{ _.value }}%</div>
             </div>
           </div>
@@ -51,7 +73,11 @@ layout: page
         {% endfor %}
       </ul>
     </article>
+
   </section>
+
+   <!-- certifications section  </section>   <section id="cert" >  </section>-->
+  <!-- career section  <section id="career" class="row">   </section> -->
 
   {% include projects.html %}
 </div>

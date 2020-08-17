@@ -51,7 +51,8 @@
       background-color: $theme-dark;
     }
   }
-  #career {
+
+  #cert, #education, #career {
     @extend %page-padding;
     margin-bottom: 55px;
     margin-top: 55px;
@@ -61,9 +62,9 @@
       font-size: 25px;
       font-weight: 600;
     }
-    .exper {
+    .cert, .edu, .exper {
       padding-top: 35px;
-      ul.exper-list {
+      ul.cert-list, ul.edu-list, ul.exper-list {
         margin-top: 25px;
         margin-left: 3%;
         border-left: 5px solid $theme-color;
