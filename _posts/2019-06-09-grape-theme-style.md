@@ -15,9 +15,9 @@ A sample of the formatting follows.
 
 <br>
 
-code, quotes and backtick
+code, quotes and backtick를 포함하고 있는 게시물의 예입니다. 
 
- `_utility.html`
+ `_utility.html`에서 스타일을 변경할 수 있으며, 서식 샘플은 아래와 같습니다.
 
 <br>
 
