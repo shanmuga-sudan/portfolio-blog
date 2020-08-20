@@ -1,6 +1,6 @@
 # Site Settings
 baseurl: ""
-url : "shanmuga-sudan.netlify.app"
+url : "https://shanmuga-sudan.netlify.app"
 
 # Blog Settings
 theme_settings :
