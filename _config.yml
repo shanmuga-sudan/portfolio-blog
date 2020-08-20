@@ -1,6 +1,6 @@
 # Site Settings
 baseurl: ""
-url : "https://shanmuga.sudan.github.io"
+url : "shanmuga-sudan.netlify.app"
 
 # Blog Settings
 theme_settings :
@@ -33,6 +33,9 @@ theme_settings :
       - start : April 2020
         end   : May   2020
         experience  : Vestmark, Inc., Boston, USA 
+      - start : August 2020
+        end   : Present
+        experience  : Destination XL Group, Canton, USA 
     skills : 
       - skill : Java
         value : 70  # Percent value
@@ -63,7 +66,7 @@ theme_settings :
     gitlab: 
     bitbucket: 
     google_plus:
-    twitter:
+    twitter: https://twitter.com/shanmuga_sudan
     youtube:
     facebook:
     instagram:
